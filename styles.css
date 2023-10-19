@@ -1,0 +1,142 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/022/823/528/non_2x/abstract-colorful-background-with-bokeh-defocused-lights-and-shadow-free-photo.jpg');
+    background-size: cover;
+    color: #FFD700;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: column; /* Cambiamos la dirección de flexbox a columna */
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para mayor legibilidad */
+}
+
+.profile {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+}
+
+.profile img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+h1 {
+    font-size: 24px;
+    color: #FFD700; /* Texto dorado para destacar */
+    margin-top: 10px; /* Espacio entre la imagen y el nombre */
+}
+
+nav {
+    background-color: #000;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    justify-content: center; /* Centramos horizontalmente los elementos */
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #FFD700;
+    font-weight: bold;
+}
+
+/* Agregamos estilos para centrar los párrafos en el div */
+.centered-paragraphs {
+    text-align: center;
+}
+
+.project-card {
+    text-align: center; /* Centrar horizontalmente */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar verticalmente */
+    justify-content: center; /* Centrar verticalmente */
+    
+}
+
+.project-card img {
+    width: 350px; /* Tamaño más pequeño, ajusta según tus preferencias */
+    height: auto; /* Mantén la proporción original */
+}
+
+
+.profile {
+        margin-bottom: 10px;
+}
+
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.about, .projects {
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para mayor legibilidad */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.project-card {
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para mayor legibilidad */
+    border: 1px solid #FFD700;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* Estilo para el botón */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FFD700; /* Color de fondo dorado */
+    color: #000; /* Color del texto */
+    text-decoration: none; /* Quitar subrayado del enlace */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #FFA500; /* Cambiar el color de fondo al pasar el cursor */
+}
+
+
+
+
+
+
+
+
+/* Estilos para dispositivos más pequeños (por ejemplo, teléfonos) */
+@media (max-width: 768px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para mayor legibilidad */
+    padding: 10px;
+    text-align: center;
+}
+
+/* Otros estilos personalizados según tus necesidades */
