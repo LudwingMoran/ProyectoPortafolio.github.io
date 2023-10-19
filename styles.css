@@ -71,7 +71,7 @@ nav a {
 }
 
 .project-card img {
-    width: 350px; /* Tamaño más pequeño, ajusta según tus preferencias */
+    width: 550px; /* Tamaño más pequeño, ajusta según tus preferencias */
     height: auto; /* Mantén la proporción original */
 }
 
@@ -138,5 +138,23 @@ footer {
     padding: 10px;
     text-align: center;
 }
+
+/* Estilo para el botón en el footer */
+footer .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FFD700;
+    color: #000;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+footer .btn:hover {
+    background-color: #FFA500;
+}
+
 
 /* Otros estilos personalizados según tus necesidades */
